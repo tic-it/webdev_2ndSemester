@@ -1,0 +1,30 @@
+
+/* Example of id selector: # */
+/* Note: The id will unique and select one element */
+#id-selector{
+    color: #FBCC3E;;
+    
+}
+
+
+/* Example of class selector: . */
+/*Note: class will select multiple element */
+.class-selector{
+    
+    background:linear-gradient(to left ,#3ec9fb, #FBCC3E) ;
+    padding: 40px 20px;
+}
+
+
+/* Example of tag or element selector: . */
+/*Note: tag select multiple its own element */
+/* For example: If I will select the h3 tag. it will apply CSS for all h3 tags  */
+h3{
+    color: #3ec9fb;
+}
+
+/* CSS Specificity | priority */
+/* 1.Inline styles */
+/* 2.IDs */
+/* 3.Classes, pseudo-classes, attribute selectors */
+/* 4. Elements and pseudo-elements */
