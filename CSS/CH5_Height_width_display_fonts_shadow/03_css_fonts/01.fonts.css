@@ -1,0 +1,24 @@
+/* example of: font color */
+#font-color{
+    color: #fbbf3e;
+}
+
+
+/* example of: font background color */
+#font-background{
+    background-color: black;
+    color: green;
+    padding: 40px 20px;
+}
+
+
+/* example of: font size */
+#font-size{
+    font-size: 100px;
+}
+
+
+/* example of: font weight */
+#font-weight{
+    font-weight: 700;
+}

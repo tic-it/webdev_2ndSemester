@@ -1,0 +1,25 @@
+/* google font example */
+#google-fonts{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* external fonts */
+@font-face {
+    font-family: "avenir_roman";
+    src: url(avenir_roman_12.otf);
+}
+#external-fonts{
+    font-family: "avenir_roman";
+}
+
+/* another example external fonts */
+@font-face {
+    font-family:"Mike-Samiya" ;
+    src: url(Mike-Samiya.otf);
+}
+
+#external-font2{
+    font-family: "Mike-Samiya";
+}
