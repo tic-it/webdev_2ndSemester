@@ -1,0 +1,109 @@
+
+*{    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;  
+}
+.background{
+    width: 330px;
+    height: 420px;
+    /* border: 1px solid green; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    border-radius: 10%;
+}
+.shape:first-child{
+    background: linear-gradient(to right top, #0b65ed, #009dff, #00c3e2, #00de86, #a8eb12);
+    left: -110px;
+    top: -130px;
+}
+.shape:last-child{
+    background: linear-gradient(#f00,#f0f);
+    right: -110px;
+    bottom: -130px;
+}
+.shape:hover{
+    opacity: 0.9;
+    transition-duration: 300ms;
+}
+form{
+    /* height: 580px; */
+    width: 500px;
+    background-color: rgba(139, 128, 128, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 20px 35px;
+}
+form *{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    /* font-weight: 500; */
+}
+input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    /* font-weight: 300; */
+}
+::placeholder{
+    color: #625757;
+    font-size: 16px;
+}
+.box{
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 25%;
+    background-color:white ;
+    color: black;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition-duration: 300ms;
+}
+

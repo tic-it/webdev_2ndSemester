@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        .hover{
+            height: 200px;
+            width: 600px;
+            border: 2px solid yellowgreen;
+        }
+
+        .hover:hover{
+            background-color: yellowgreen;
+            transition-duration: 900ms;
+            transition-delay: 300ms;
+            transition-timing-function: ease-in-out;
+            cursor: pointer;
+            
+        }
+
+        .hoverme{
+            width: 100px;
+            height: 100px;
+            background: #217df5;
+            transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 300ms;
+            margin-top: 40px;
+        }
+        .hoverme:hover {
+            width: 300px;
+            cursor: pointer;
+          }
+    </style>
+</head>
+<body>
+    <div class="hover"></div>
+    <div class="hoverme"></div>
+</body>
+</html>

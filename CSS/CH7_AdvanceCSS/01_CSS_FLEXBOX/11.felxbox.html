@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shrink</title>
+    <style>
+        body{
+            background-color: #5479F7;
+        }
+        
+        .main-wraper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            height: 100vh;
+        }
+        
+        .wraper{
+            height: 200px;
+            width: 582px;
+            padding: 8px;
+            border: 2px solid white;
+            border-radius:8px ;
+            /**/
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .wraper div{
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            /**/
+            flex-basis: 100px;
+        }
+        .box{
+            flex-shrink: 1;
+        }
+        
+        .item2{
+            flex-grow: 2;
+            flex-shrink:0;
+        }
+
+    </style>
+</head>
+<body>
+    <!--  Flex Shrink -->
+    <div class="main-wraper">
+        <div class="wraper">
+            <div class="box">1</div>
+            <div class="item2">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+        </div>
+    </div>
+</body>
+</html>

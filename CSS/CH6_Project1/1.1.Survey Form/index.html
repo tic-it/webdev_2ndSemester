@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h2>Code Library Survey Form</h2>
+            <div id="main-container">
+                <form action="">
+                    <label >Name</label>
+                    <div class="inputes">
+                        <input type="text" placeholder="Enter Your Name">
+                    </div>
+                    <label >Email</label>
+                    <div class="inputes">
+                        <input type="text" placeholder="Enter Your Email">
+                    </div>
+                    <label >Age</label>
+                    <div class="inputes">
+                        <input type="number" placeholder="Enter Your Age">
+                    </div>
+                    <label >Gender</label>
+                    <div class="radio-buttons">
+                        <div class="radio-button">
+                            <label >Male</label>
+                            <input type="radio" name="genderbtn" value="male" >
+                        </div>
+                        <div class="radio-button">
+                            <label >Female</label>
+                            <input type="radio" name="genderbtn" value="female" >
+                        </div>
+                        <div class="radio-button">
+                            <label >Others</label>
+                            <input type="radio" name="genderbtn" value="others" >
+                        </div>
+                    </div>
+                    <label class="inner-texts">Which Option Best Describes You?</label>
+                    <div class="inputes">
+                        <select name="options" >
+                            <option value="Student">Student</option>
+                            <option value="Teacher">Teacher</option>
+                            <option value="Programmer">Programmer</option>
+                            <option value="Instructor">Instructor</option>
+                            <option value="Full-Stack Developer">Full-Stack Developer</option>
+                        </select>
+                    </div>
+                    <label class="inner-texts">Your Best Programming Languages?</label>
+                    <div class="radio-buttons">
+                        <div class="radio-button">
+                            <label >C</label>
+                            <input type="checkbox" name="genderbtn" value="c" >
+                        </div>
+                        <div class="radio-button">
+                            <label >c++</label>
+                            <input type="checkbox" name="genderbtn" value="c++" >
+                        </div>
+                        <div class="radio-button">
+                            <label >Python</label>
+                            <input type="checkbox" name="genderbtn" value="Python" >
+                        </div>
+                        <div class="radio-button">
+                            <label >Java</label>
+                            <input type="checkbox" name="genderbtn" value="Java" >
+                        </div>
+                        <div class="radio-button">
+                            <label >JavaScript</label>
+                            <input type="checkbox" name="genderbtn" value="JavaScript" >
+                        </div>
+                    </div>
+                    <div id="button-container">
+                        <input type="button" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

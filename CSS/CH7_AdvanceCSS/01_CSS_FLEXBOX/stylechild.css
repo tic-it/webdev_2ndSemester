@@ -1,0 +1,25 @@
+body{
+    background-color: #5479F7;
+}
+
+.main-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+}
+
+.wraper{
+    padding: 8px;
+    border: 2px solid white;
+    border-radius:8px ;
+}
+
+.wraper div{
+    color: white;
+    background-color: black;
+    height: 190px;
+    width: 190px;
+    border-radius: 4px;
+}

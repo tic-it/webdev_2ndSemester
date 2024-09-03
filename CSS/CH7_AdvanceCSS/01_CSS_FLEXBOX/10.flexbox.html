@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow</title>
+    <link rel="stylesheet" href="stylechild.css">
+    <style>
+        .wraper{
+            display: flex;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+
+        .item2{
+            flex-grow: 2;
+        }
+        .item4{
+            flex-grow: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <!--  Flex Grow -->
+    <div class="main-wraper">
+        <div class="wraper">
+            <div>1</div>
+            <div class="item2">2</div>
+            <div>3</div>
+            <div class="item4">4</div>
+            <div>5</div>
+        </div>
+    </div>
+</body>
+</html>
