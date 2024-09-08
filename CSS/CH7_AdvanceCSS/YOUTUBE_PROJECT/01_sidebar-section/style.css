@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
     background-color: #0F0F0F;
 }
 
-.header-container{
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,18 +17,20 @@ body{
     height: 56px;
     padding: 0 30px;
 }
+
 /* menu youtube icon section */
-.header-item-containers{
+.header-item-containers {
     /* border: 1px solid green; */
     display: flex;
     gap: 18px;
 }
 
-.header-item-containers .header-menu-icon{
+.header-item-containers .header-menu-icon {
     height: 24px;
     width: 24px;
 }
-.header-youtube-icon{
+
+.header-youtube-icon {
     height: 20px;
     width: 90px;
 }
@@ -39,10 +41,11 @@ body{
     justify-content: center;
     align-items: center;
 }
-.youtube-search input{
+
+.youtube-search input {
     padding: 0 4px 0 16px;
     border-radius: 40px 0 0 40px;
-    border: 1px solid hsl(0,0%,18.82%);
+    border: 1px solid #303030;
     border-right: none;
     background-color: #0F0F0F;
     height: 40px;
@@ -51,18 +54,19 @@ body{
     font-weight: 500;
     color: #222222;
 }
-.header-search-button-container{
 
-}
-.youtube-search button{
+.header-search-button-container {}
+
+.youtube-search button {
     height: 42px;
     width: 64px;
     background-color: #222222;
     border-radius: 0 40px 40px 0;
     cursor: pointer;
-    border: 1px solid hsl(0,0%,18.82%);
+    border: 1px solid hsl(0, 0%, 18.82%);
 }
-.youtube-voice-search{
+
+.youtube-voice-search {
     height: 40px;
     width: 40px;
     background-color: #222222;
@@ -71,14 +75,16 @@ body{
     align-items: center;
     justify-content: center;
 }
-.youtube-voice-search:hover{
+
+.youtube-voice-search:hover {
     background-color: #3D3D3D;
     cursor: pointer;
 }
 
 /* profile stream section */
 
-.header-stream-icon, .header-notification-icon{
+.header-stream-icon,
+.header-notification-icon {
     height: 40px;
     width: 40px;
     display: flex;
@@ -87,48 +93,50 @@ body{
     border-radius: 50%;
 }
 
-.header-stream-icon:hover, .header-notification-icon:hover{
+.header-stream-icon:hover,
+.header-notification-icon:hover {
     background-color: #222222;
     cursor: pointer;
 }
 
-.header-profile-icon img{
+.header-profile-icon img {
     height: 32px;
     width: 32px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-#main-body-section{
+#main-body-section {
     /* padding: 0 30px; */
     display: flex;
     /* border: 1px solid blue; */
 }
 
 /* sidebar css */
-.main-side-bar-container{
+.main-side-bar-container {
     /* border: 1px solid red; */
 }
 
-.sidebar-home-section{
+.sidebar-home-section {
     padding: 12px;
     width: 216px;
     height: 90vh;
-    overflow:hidden;
+    overflow: hidden;
     overflow-y: auto;
-    scrollbar-color: transparent #0F0F0F ;
+    scrollbar-color: transparent #0F0F0F;
     scrollbar-width: thin;
     /* border: 1px solid orange; */
 }
-.sidebar-home-section:hover{
-    scrollbar-color: #ABABAB #0F0F0F ;
+
+.sidebar-home-section:hover {
+    scrollbar-color: #ABABAB #0F0F0F;
 }
 
-#home-section{
+#home-section {
     padding: 0 12px;
     height: 40px;
     /* width: 204px; */
-    background-color: rgb(255 255 255 / 10%);
+    background-color: #ffffff1a;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -136,11 +144,12 @@ body{
     cursor: pointer;
 }
 
-#home-section img{
+#home-section img {
     height: 24px;
     width: 24px;
 }
-#home-section span{
+
+#home-section span {
     color: white;
     font-size: 0.9rem;
     line-height: 2rem;
@@ -148,7 +157,7 @@ body{
 
 }
 
-.sidebar-bottom-all-section{
+.sidebar-bottom-all-section {
     padding: 0 12px;
     height: 40px;
     /* width: 204px; */
@@ -157,35 +166,38 @@ body{
     border-radius: 10px;
     gap: 25px;
 }
-.sidebar-bottom-all-section img{
+
+.sidebar-bottom-all-section img {
     height: 24px;
     width: 24px;
 }
-.sidebar-bottom-all-section span{
+
+.sidebar-bottom-all-section span {
     color: white;
     font-size: 0.9rem;
     line-height: 2rem;
     font-weight: 500;
-    
+
 }
-.sidebar-bottom-all-section #highlighted-text{
+
+.sidebar-bottom-all-section #highlighted-text {
     font-size: 1.2rem;
 }
 
-.sidebar-bottom-all-section:hover{
-    background-color: rgb(255 255 255 / 10%);
+.sidebar-bottom-all-section:hover {
+    background-color: #ffffff1a;
     cursor: pointer;
 }
 
-.hr-bottom-section{
-    border-top: 1px solid hsl(0,0%,18.82%);
+.hr-bottom-section {
+    border-top: 1px solid #303030;
     margin-top: 10px;
 }
 
-.hr-top-section{
+.hr-top-section {
     margin-top: 10px;
 }
 
-.sidebar-suscriber-img{
+.sidebar-suscriber-img {
     border-radius: 50%;
 }
